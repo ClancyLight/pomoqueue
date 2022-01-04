@@ -1,7 +1,7 @@
-# Pomoku - focus aid device
+# Pomoqueue - focus aid device
 
 
-A queue of tasks to feed into your pomodoro timer. A Pomodoro-Queue or just, Pomoku!
+A queue of tasks to feed into your pomodoro timer. A Pomodoro-Queue.
 
 
 ### Available platforms
