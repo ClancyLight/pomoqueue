@@ -84,6 +84,7 @@ dist
 
 # Misc
 .DS_Store
+*.jpg
 
 # Gatsby files
 .cache/
