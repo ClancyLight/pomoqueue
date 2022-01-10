@@ -4,7 +4,7 @@ const loadPage = () => {
   const itemView = document.getElementById('item-view');
   const userInput = document.getElementById('user-input');
 
-  const itemViewedSrcFldr = 'assets';
+  const itemViewedSrcFldr = 'assets/todo';
   const currentItemFile = 'sample.jpg';
 
   itemView.style.fontFamily = 'courier';
@@ -45,8 +45,10 @@ const loadPage = () => {
 
       infoDiv.innerHTML = `
         <center>
-            <h1>Information</ht>
-            <p>This file, ${imgSrc}, is about bla bla bla..</p>
+            <h1>Activity Information</h1>
+            <p>'<code>${imgSrc}</code>': ... info describing the to-do task/goal/activity. Can be
+            quite detailed. Can be an amount of time to exercise/practice etc. But preferably not based on
+            time, but rather based on a goal/outcome, ie. complete 200 push-ups. Or. finish the next chapter of...</p>
         </center>
     `;
 
